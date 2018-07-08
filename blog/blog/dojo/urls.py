@@ -6,6 +6,6 @@ from . import views
 app_name = "dojo"
 
 urlpatterns = [
-    path("sum/<x>/", views.mysum, name="mysum"),
-    path("sum/<x>/<y>/", views.mysum, name="mysum"),
+    path("sum/<numbers>/", views.mysum, name="mysum"),
+    path("hello/<name>/<age>", views.hello, name="hello"),
 ]
