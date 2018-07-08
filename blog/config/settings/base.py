@@ -70,7 +70,8 @@ THIRD_PARTY_APPS = [
 ]
 LOCAL_APPS = [
     'blog.users.apps.UsersAppConfig',
-    'blog.posts.apps.PostsConfig'
+    'blog.posts.apps.PostsConfig',
+    'blog.dojo.apps.DojoConfig'
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

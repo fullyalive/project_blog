@@ -23,6 +23,10 @@ urlpatterns = [
         "posts/",
         include("blog.posts.urls", namespace="posts"),
     ),
+    path(
+        "dojo/",
+        include("blog.dojo.urls", namespace="dojo"),
+    ),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
 ] + static(
